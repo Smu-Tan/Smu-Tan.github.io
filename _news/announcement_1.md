@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Paper accepted to the EMNLP 2023 Main Conference, see .
