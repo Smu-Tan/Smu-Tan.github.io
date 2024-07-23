@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Talks & Service
+title: Talks&Service
 permalink: /projects/
 description:
 nav: true
