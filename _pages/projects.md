@@ -1,65 +1,55 @@
 ---
 layout: page
-title: projects
+title: Talks & Service
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: 
 nav: true
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+<style>
+  .content {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+  }
+  dl {
+    margin: 20px 0;
+  }
+  dt {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  .italic {
+    font-style: italic;
+  }
+</style>
 
-{% else %}
+<div class="content">
+  <h2>Program Committee</h2>
+  <dl>
+    <dt>ACL ARR 2024</dt>
+    <dd>- February, April, June</dd>
+    <dt>Transactions on Audio, Speech and Language Processing (TASLP) 2023</dt>
+    <dd>- December</dd>
+  </dl>
 
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
+  <h2>Guest Lecture</h2>
+  <dl>
+    <dt>4th June 2024: A Journey on Multilingual Neural Machine Translation</dt>
+    <dd>- Invited by Prof. Denis Paperno @ Utrecht University</dd>
+    <dd>- For AI Bachelor Students in the course <span class="italic">"Models for Language Processing"</span></dd>
+  </dl>
 </div>
