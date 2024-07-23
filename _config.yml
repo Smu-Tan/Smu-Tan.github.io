@@ -8,14 +8,14 @@ middle_name:
 last_name: Tan
 email: s.tan@uva.nl
 description: #> # the ">" symbol means to ignore newlines until "footer_text:"
-footer_text: Powered by .
+footer_text: 
 keywords: #add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 1.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: prof_pic.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://Smu-Tan.github.io # the base hostname & protocol for your site
 baseurl: #/al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: true # set to true if you want to display last updated in the footer
+last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
@@ -623,7 +623,7 @@ third_party_libraries:
 # -----------------------------------------------------------------------------
 
 jekyll_get_json:
-  - data: resume
+  - data: #resume
     json: #assets/json/resume.json it can also be an url
 jsonresume:
   - basics
