@@ -1,12 +1,13 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
+title: Repositories
 description: I enjoy contributing open source code and data to the community.
 nav: true
 nav_order: 4
 ---
 
+---
 ## GitHub Repositories
 
 {% if site.data.repositories.github_repos %}

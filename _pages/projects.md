@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Talks&Service
+title: Teaching&Service
 permalink: /projects/
 description:
 nav: true
-nav_order: 3
+nav_order: 6
 display_categories: [work, fun]
 horizontal: false
 ---
@@ -45,11 +45,27 @@ horizontal: false
     <dt>Transactions on Audio, Speech and Language Processing (TASLP) 2023</dt>
     <dd>- December</dd>
   </dl>
+  <br>
 
   <h2>Guest Lecture</h2>
   <dl>
     <dt>4th June 2024: A Journey on Multilingual Neural Machine Translation</dt>
     <dd>- Invited by Prof. Denis Paperno @ Utrecht University</dd>
     <dd>- For AI Bachelor Students in the course <span class="italic">"Models for Language Processing"</span></dd>
+  </dl><br>
+
+  <h2>Thesis Mentorship</h2>
+  <dl>
+    <dt>Sotirios Kastanas, Msc thesis in Data Science, 2023</dt>
+    <dd>- Document AI topic, collaborated with Elsevier.</dd>
+    <dt>Matei Penca, Msc thesis in Data Science, 2023</dt>
+    <dd>- Information Extraction topic, collaborated with Elsevier.</dd>
+    <dt>Jelle van der Lee, Bsc thesis in Artificial Intelligence, 2022<dt>
+    <dd>- Question Answering topic.</dd>
+  <br>
+
+  <h2>Teaching Assistance</h2>
+  <dl>
+    <dt>TA for ’Natural Language Processing-1’</dt>
+    <dd>- For AI Master Students, at the University of Amsterdam</dd>
   </dl>
-</div>
