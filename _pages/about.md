@@ -17,5 +17,3 @@ social: true # includes social icons at the bottom of the page
 ---
 
 I am a PhD Candidate in Multilingual NLP at University of Amsterdam, The Netherlands. I work with <a href='https://ivi.uva.nl/research/language-technology-lab-ltl.html'>Christof Monz</a>
-
-
