@@ -41,17 +41,24 @@ horizontal: false
   <h2>Program Committee</h2>
   <dl>
     <dt>ACL ARR 2024</dt>
-    <dd>- February, April, June</dd>
+    <dd>- February, April, June 2024</dd>
+    <dt>Conference on Machine Translation (WMT24)</dt>
+    <dd>- September, 2024</dd>
+    <dt>4th Multilingual Representation Learning (MRL) workshop at EMNLP 2024</dt>
+    <dd>- September, 2024</dd>
     <dt>Transactions on Audio, Speech and Language Processing (TASLP) 2023</dt>
-    <dd>- December</dd>
+    <dd>- December, 2023</dd>
   </dl>
   <br>
 
   <h2>Guest Lecture</h2>
   <dl>
-    <dt>4th June 2024: A Journey on Multilingual Neural Machine Translation</dt>
+    <dt><a href="/assets/pdf/Guest-Lecture-UU.pdf" target="_blank">A Journey on Multilingual Neural Machine Translation</a></dt>
     <dd>- Invited by Prof. Denis Paperno @ Utrecht University</dd>
-    <dd>- For AI Bachelor Students in the course <span class="italic">"Models for Language Processing"</span></dd>
+    <dd>- For AI Bachelor Students in the course <span class="italic">"Models for Language Processing", June 2024.</span></dd>
+    <dt>Neuron Specialization: Leveraging Intrinsic Task Modularity for Multilingual Machine Translation</dt>
+    <dd>- Invited by Prof. Christof Monz @ University of Amsterdam</dd>
+    <dd>- For AI Master Students in the course <span class="italic">"Deep Learning for Natural Language Processing", October 2024.</span></dd>
   </dl><br>
 
   <h2>Thesis Mentorship</h2>
