@@ -56,7 +56,7 @@ horizontal: false
     <dt><a href="/assets/pdf/Guest-Lecture-UU.pdf" target="_blank">A Journey on Multilingual Neural Machine Translation</a></dt>
     <dd>- Invited by Prof. Denis Paperno @ Utrecht University</dd>
     <dd>- For AI Bachelor Students in the course <span class="italic">"Models for Language Processing", June 2024.</span></dd>
-    <dt>Neuron Specialization: Leveraging Intrinsic Task Modularity for Multilingual Machine Translation</dt>
+    <dt><a href="/assets/pdf/Guest-Lecture-DL4NLP.pdf" target="_blank">Interference and Knowledge Transfer in Multilingual Translation Models</dt>
     <dd>- Invited by Prof. Christof Monz @ University of Amsterdam</dd>
     <dd>- For AI Master Students in the course <span class="italic">"Deep Learning for Natural Language Processing", October 2024.</span></dd>
   </dl><br>
