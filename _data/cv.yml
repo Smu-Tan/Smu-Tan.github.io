@@ -69,6 +69,11 @@
 - title: Competitions
   type: time_table
   contents:
+    - title: <a href="https://www.kaggle.com/competitions/wsdm-cup-multilingual-chatbot-arena/overview">WSDM Cup - Multilingual Chatbot Arena</a>
+      year: 2025-03
+      description:
+        - <strong>Silver Medal - Ranked 19/950 teams</strong>
+        - <strong> Shaomu Tan </strong>
     - title: <a href="https://www.kaggle.com/competitions/asl-fingerspelling/discussion/434475">Google's American Sign Language Fingerspelling Recognition</a>
       year: 2023-08
       description:
