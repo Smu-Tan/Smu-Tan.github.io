@@ -36,10 +36,10 @@
 - title: Publications
   type: time_table
   contents:
-    - title: <a href="https://arxiv.org/abs/2404.11201">Neuron Specialization&#58; Leveraging intrinsic task modularity for multilingual machine translation</a>
-      year: 2024-04
+    - title: <a href="https://aclanthology.org/2024.emnlp-main.374/">Neuron Specialization&#58; Leveraging Intrinsic Task Modularity for Multilingual Machine Translation</a>
+      year: 2024-11
       description:
-        - Arxiv Preprint (UnderReview)
+        - EMNLP 2024
         - <i><strong> Shaomu Tan</strong>, Di wu, Christof Monz</i>
 
     - title: <a href="https://arxiv.org/abs/2401.12413">How Far Can 100 Samples Go? Unlocking Overall Zero-Shot Multilingual Translation via Tiny Multi-Parallel Data</a>

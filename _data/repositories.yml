@@ -6,3 +6,5 @@ repo_description_lines_max: 2
 github_repos:
   - Smu-Tan/ZS-NMT-Variations
   - Smu-Tan/meft_decoder_only
+  - Smu-Tan/Neuron-Specialization
+  - Smu-Tan/Remedy
