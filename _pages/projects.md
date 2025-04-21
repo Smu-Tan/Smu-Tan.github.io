@@ -38,7 +38,7 @@ horizontal: false
 </style>
 
 <div class="content">
-  <h2>Program Committee</h2>
+  <h2>Program Committee / Reviewing </h2>
   <dl>
     <dt>ACL ARR 2024</dt>
     <dd>- February, April, June 2024</dd>
