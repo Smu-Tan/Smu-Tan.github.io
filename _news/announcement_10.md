@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-I gave a talk at "[NAIST NLP Lab](https://nlp.naist.jp/en/)" on “The Second Half of Machine Translation”, invited by prof. Taro Watanabe.
+I gave a talk at **[NAIST NLP Lab](https://nlp.naist.jp/en/)** on **“The Second Half of Machine Translation”**, invited by [Prof. Taro Watanabe](https://sites.google.com/site/tarowtnb/).
 
