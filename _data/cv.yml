@@ -29,8 +29,8 @@
       institution: <a href="https://www.en.sdu.edu.cn/">Shandong University</a>, Shandong, China
       year: 2016-2020
       location: Shandong, CN
-      description:
-        - CN Grade&#58; 84.2/100.0
+      #description:
+      #  -
 
 - title: Publications
   type: time_table
