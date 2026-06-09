@@ -7,7 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-## Code Releases
+<h2 class="artifact-section-title">Code Releases</h2>
 
 {% if site.data.repositories.github_repos %}
 <div class="repositories-grid">
@@ -17,7 +17,9 @@ nav_order: 4
 </div>
 {% endif %}
 
-## Models & Datasets
+<div class="artifact-section-spacer"></div>
+
+<h2 class="artifact-section-title">Models & Datasets</h2>
 
 {% if site.data.repositories.huggingface_artifacts %}
 <div class="repositories-grid">
