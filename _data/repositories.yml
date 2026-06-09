@@ -51,11 +51,11 @@ huggingface_artifacts:
   - name: EC40
     type: Dataset
     url: https://huggingface.co/datasets/ShaomuTan/EC40
-    description: Hugging Face dataset release for multilingual and cross-cultural evaluation research.
+    description: Hugging Face dataset release for multilingual translation training and cross-cultural evaluation research.
     icon: fa-solid fa-database
     tags:
       - Dataset
-      - Hugging Face
+      - Multilingual Translation
       - Evaluation
   - name: Remedy-R
     type: Model Collection

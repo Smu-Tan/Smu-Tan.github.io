@@ -57,12 +57,6 @@ body.sticky-bottom-footer {
   text-transform: uppercase;
 }
 
-.about-lead {
-  margin-bottom: 1.1rem;
-  font-size: 1.12rem;
-  line-height: 1.55;
-}
-
 .about-section-title {
   margin-top: 2rem;
   margin-bottom: 0.9rem;
@@ -112,10 +106,6 @@ body.sticky-bottom-footer {
 }
 
 @media (max-width: 575px) {
-  .about-lead {
-    font-size: 1.02rem;
-  }
-
   .about-news .news table.table tr,
   .about-news .news table.table th,
   .about-news .news table.table td {

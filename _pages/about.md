@@ -16,10 +16,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 <div class="about-intro">
-  <p class="about-kicker">Machine Translation &#10073; Multilingual NLP &#10073; Deep Learning</p>
-  <p class="about-lead">
-    I am on a quest to make machine translation and language technologies more effective, breaking down language barriers and connecting people around the world.
-  </p>
+  <p class="about-kicker">Research on Machine Translation &#10073; Multilingual NLP &#10073; Deep Learning</p>
 </div>
 
 I am currently a PhD candidate at the <a href="https://ivi.uva.nl/research/language-technology-lab-ltl.html">Language Technology Lab</a>, <a href="https://ivi.uva.nl">University of Amsterdam</a>. I work with <a href="https://staff.fnwi.uva.nl/c.monz/">Christof Monz</a> and my amazing colleagues at LTL. Before my PhD, I obtained an M.S. degree in Artificial Intelligence at <a href="https://www.uu.nl/en">Utrecht University</a>, Netherlands.
