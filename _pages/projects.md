@@ -60,12 +60,12 @@ horizontal: false
     <dd class="meta">Nara Institute of Science and Technology (NAIST), invited by Prof. <a href="https://sites.google.com/site/tarowtnb/" target="_blank" rel="noopener noreferrer">Taro Watanabe</a>, July 2025.</dd>
   </dl>
 
-  <h2>Lectures & Education</h2>
+  <h2>Guest Lectures & Education</h2>
   <dl>
-    <dt><a href="/assets/pdf/Guest-Lecture-DL4NLP.pdf" target="_blank" rel="noopener noreferrer">Interference and Knowledge Transfer in Multilingual Translation Models</a></dt>
+    <dt>Guest Lecture, <a href="/assets/pdf/Guest-Lecture-DL4NLP.pdf" target="_blank" rel="noopener noreferrer">Interference and Knowledge Transfer in Multilingual Translation Models</a></dt>
     <dd class="meta">University of Amsterdam, AI Master course "Deep Learning for Natural Language Processing", co-presented with Prof. Christof Monz, October 2024.</dd>
 
-    <dt><a href="/assets/pdf/Guest-Lecture-UU.pdf" target="_blank" rel="noopener noreferrer">A Journey on Multilingual Neural Machine Translation</a></dt>
+    <dt>Guest Lecture, <a href="/assets/pdf/Guest-Lecture-UU.pdf" target="_blank" rel="noopener noreferrer">A Journey on Multilingual Neural Machine Translation</a></dt>
     <dd class="meta">Utrecht University, AI Bachelor course "Models for Language Processing", co-presented with Prof. Denis Paperno, June 2024.</dd>
 
     <dt>Teaching Assistant, Natural Language Processing 1</dt>

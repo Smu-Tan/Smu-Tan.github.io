@@ -1,27 +1,42 @@
-{% assign repo_url = include.repository | split: '/' %}
-{% if site.data.repositories.github_users contains repo_url.first %}
-  {% assign show_owner = false %}
+{% if include.repository.repo %}
+  {% assign repo_full = include.repository.repo %}
+  {% assign repo_name = include.repository.name %}
+  {% assign repo_description = include.repository.description %}
+  {% assign repo_tags = include.repository.tags %}
 {% else %}
-  {% assign show_owner = true %}
+  {% assign repo_full = include.repository %}
 {% endif %}
 
-{% if site.data.repositories.repo_description_lines_max %}
-  {% assign max_lines = site.data.repositories.repo_description_lines_max %}
-{% else %}
-  {% assign max_lines = 2 %}
-{% endif %}
+{% assign repo_url = repo_full | split: '/' %}
+{% assign repo_owner = repo_url[0] %}
+{% assign repo_slug = repo_url[1] %}
+{% unless repo_name %}
+  {% assign repo_name = repo_slug %}
+{% endunless %}
+{% unless repo_description %}
+  {% assign repo_description = repo_full %}
+{% endunless %}
 
-<div class="repo p-2 text-center">
-  <a href="https://github.com/{{ include.repository }}">
-    <img
-      class="repo-img-light w-100"
-      alt="{{ include.repository }}"
-      src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_light }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
-    >
-    <img
-      class="repo-img-dark w-100"
-      alt="{{ include.repository }}"
-      src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_dark }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
-    >
+<div class="repo-card">
+  <a class="repo-card-link" href="https://github.com/{{ repo_full }}" target="_blank" rel="noopener noreferrer">
+    <div class="repo-card-header">
+      <div>
+        <p class="repo-owner">{{ repo_owner }}</p>
+        <h3>{{ repo_name }}</h3>
+      </div>
+      <span class="repo-icon" aria-hidden="true"><i class="fa-brands fa-github"></i></span>
+    </div>
+    <p class="repo-description">{{ repo_description }}</p>
+    {% if repo_tags %}
+      <div class="repo-tags" aria-label="Repository topics">
+        {% for tag in repo_tags %}
+          <span>{{ tag }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+    <div class="repo-card-footer">
+      <span>{{ repo_full }}</span>
+      <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+    </div>
   </a>
 </div>

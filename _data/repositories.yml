@@ -4,7 +4,45 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - Smu-Tan/ZS-NMT-Variations
-  - Smu-Tan/meft_decoder_only
-  - Smu-Tan/Neuron-Specialization
-  - Smu-Tan/Remedy
+  - repo: Smu-Tan/Remedy-R
+    name: Remedy-R
+    description: Generative reasoning for machine translation evaluation without error annotations.
+    tags:
+      - Machine Translation
+      - Evaluation
+      - Reasoning
+  - repo: Smu-Tan/Remedy
+    name: ReMedy
+    description: Reward-modeling based machine translation evaluation from human preferences.
+    tags:
+      - Reward Modeling
+      - MT Evaluation
+      - Preferences
+  - repo: Smu-Tan/Neuron-Specialization
+    name: Neuron Specialization
+    description: Code for analyzing intrinsic task modularity in multilingual machine translation models.
+    tags:
+      - Multilingual NLP
+      - Model Analysis
+      - MT
+  - repo: Smu-Tan/ZS-NMT-Variations
+    name: ZS-NMT Variations
+    description: Experiments for understanding variations in zero-shot neural machine translation performance.
+    tags:
+      - Zero-Shot MT
+      - NMT
+      - Analysis
+  - repo: Smu-Tan/meft_decoder_only
+    name: MEFT Decoder Only
+    description: Decoder-only implementation for memory-efficient fine-tuning with reversible model components.
+    tags:
+      - Fine-Tuning
+      - Efficiency
+      - Transformers
+  - repo: Smu-Tan/Megatron-LM
+    name: Megatron-LM
+    description: Research fork of Megatron-LM for large-scale language model training experiments.
+    tags:
+      - LLM Training
+      - Distributed Systems
+      - Scaling

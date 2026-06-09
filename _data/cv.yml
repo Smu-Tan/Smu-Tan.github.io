@@ -110,19 +110,6 @@
         - <strong>First Place on the English-Hebrew constrained track</strong>
         - Built a compact encoder-decoder MT system that performed on par with GPT-4 5-shot prompting.
 
-- title: Invited Talks
-  type: time_table
-  contents:
-    - title: <a href="/assets/pdf/MME_EACL.pdf">Toward Explainable, Robust, and Actionable Translation Quality Estimation</a>
-      institution: EACL 2026 Multilingual & Multicultural Evaluation Workshop
-      year: 2026-03
-    - title: Remedy-R&#58; Large Reasoning Models for Machine Translation Evaluation
-      institution: University of Tokyo, invited by Prof. Yoshimasa Tsuruoka
-      year: 2025-08
-    - title: The Second Half of Machine Translation
-      institution: Nara Institute of Science and Technology, invited by Prof. Taro Watanabe
-      year: 2025-07
-
 - title: Teaching & Service
   type: time_table
   contents:
@@ -136,11 +123,24 @@
       year: 2024-06
       description:
         - Co-presented with Prof. Denis Paperno.
-    - title: Reviewing
-      institution: ACL Rolling Review, TASLP, WMT, and MRL
-      year: 2023-2026
+    - title: Program Committee / Reviewing
+      institution: ACL Rolling Review (ARR), TASLP, WMT, and MRL
+      year: 2024-2026
       description:
         - Reviewed for ACL, EMNLP, EACL, NAACL, TASLP, WMT, and Multilingual Representation Learning.
+
+- title: Invited Talks
+  type: time_table
+  contents:
+    - title: <a href="/assets/pdf/MME_EACL.pdf">Toward Explainable, Robust, and Actionable Translation Quality Estimation</a>
+      institution: EACL 2026 Multilingual & Multicultural Evaluation Workshop
+      year: 2026-03
+    - title: Remedy-R&#58; Large Reasoning Models for Machine Translation Evaluation
+      institution: University of Tokyo, invited by Prof. Yoshimasa Tsuruoka
+      year: 2025-08
+    - title: The Second Half of Machine Translation
+      institution: Nara Institute of Science and Technology, invited by Prof. Taro Watanabe
+      year: 2025-07
 
 - title: Technical Skills
   type: nested_list

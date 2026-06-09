@@ -51,3 +51,126 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+/*****************************************************************************
+* Repositories
+*****************************************************************************/
+
+.repositories-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.repo-card {
+  min-width: 0;
+  height: 100%;
+}
+
+.repo-card-link {
+  display: flex;
+  flex-direction: column;
+  min-height: 13rem;
+  height: 100%;
+  padding: 1.1rem;
+  color: var(--global-text-color);
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+
+  &:hover {
+    color: var(--global-text-color);
+    text-decoration: none;
+    border-color: var(--global-theme-color);
+    box-shadow: 0 14px 34px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+  }
+}
+
+.repo-card-header {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  h3 {
+    margin: 0.1rem 0 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.25;
+  }
+}
+
+.repo-owner {
+  margin: 0;
+  font-size: 0.78rem;
+  color: var(--global-text-color-light);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.repo-icon {
+  flex: 0 0 auto;
+  color: var(--global-theme-color);
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.repo-description {
+  margin: 0.85rem 0 1rem;
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.repo-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: auto;
+
+  span {
+    padding: 0.18rem 0.5rem;
+    color: var(--global-theme-color);
+    font-size: 0.75rem;
+    line-height: 1.4;
+    background: var(--global-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 999px;
+  }
+}
+
+.repo-card-footer {
+  display: flex;
+  gap: 0.65rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding-top: 0.85rem;
+  color: var(--global-text-color-light);
+  font-size: 0.82rem;
+  border-top: 1px solid var(--global-divider-color);
+
+  span {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 767px) {
+  .repositories-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .repo-card-link {
+    min-height: auto;
+  }
+}
