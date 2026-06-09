@@ -40,9 +40,38 @@ github_repos:
       - Efficiency
       - Transformers
   - repo: Smu-Tan/Megatron-LM
-    name: Megatron-LM
-    description: Research fork of Megatron-LM for large-scale language model training experiments.
+    name: Attention Residuals for Megatron-LM
+    description: Megatron-LM implementation of Full and Block Attention Residuals for dense Llama-style pretraining experiments.
     tags:
-      - LLM Training
-      - Distributed Systems
-      - Scaling
+      - Attention Residuals
+      - Megatron-LM
+      - Triton
+
+huggingface_artifacts:
+  - name: EC40
+    type: Dataset
+    url: https://huggingface.co/datasets/ShaomuTan/EC40
+    description: Hugging Face dataset release for multilingual and cross-cultural evaluation research.
+    icon: fa-solid fa-database
+    tags:
+      - Dataset
+      - Hugging Face
+      - Evaluation
+  - name: Remedy-R
+    type: Model Collection
+    url: https://huggingface.co/collections/ShaomuTan/remedy-r
+    description: Model collection for generative reasoning in machine translation evaluation.
+    icon: fa-solid fa-layer-group
+    tags:
+      - Models
+      - MT Evaluation
+      - Reasoning
+  - name: ReMedy
+    type: Model Collection
+    url: https://huggingface.co/collections/ShaomuTan/remedy
+    description: Model collection for reward-modeling based machine translation evaluation.
+    icon: fa-solid fa-layer-group
+    tags:
+      - Models
+      - Reward Modeling
+      - Preferences

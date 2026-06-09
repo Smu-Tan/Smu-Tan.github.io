@@ -133,14 +133,14 @@
   type: time_table
   contents:
     - title: <a href="/assets/pdf/MME_EACL.pdf">Toward Explainable, Robust, and Actionable Translation Quality Estimation</a>
-      institution: EACL 2026 Multilingual & Multicultural Evaluation Workshop
-      year: 2026-03
+      institution: <a href="https://2026.eacl.org/">EACL 2026</a>, <a href="https://multilingual-multicultural-evaluation.github.io/">Multilingual Multicultural Evaluation (MME) workshop</a>, Rabat, Morocco
+      year: Mar 2026
     - title: Remedy-R&#58; Large Reasoning Models for Machine Translation Evaluation
       institution: University of Tokyo, invited by Prof. Yoshimasa Tsuruoka
-      year: 2025-08
+      year: Aug 2025
     - title: The Second Half of Machine Translation
       institution: Nara Institute of Science and Technology, invited by Prof. Taro Watanabe
-      year: 2025-07
+      year: Jul 2025
 
 - title: Technical Skills
   type: nested_list

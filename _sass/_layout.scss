@@ -40,6 +40,84 @@ body.sticky-bottom-footer {
 
 // TODO: redefine content layout.
 
+/*****************************************************************************
+* About
+*****************************************************************************/
+
+.about-intro {
+  margin-bottom: 1.25rem;
+}
+
+.about-kicker {
+  margin-bottom: 0.45rem;
+  color: var(--global-theme-color);
+  font-size: 0.86rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.about-lead {
+  margin-bottom: 1.1rem;
+  font-size: 1.18rem;
+  line-height: 1.55;
+}
+
+.about-focus {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 1.25rem 0 1.4rem;
+
+  span {
+    padding: 0.22rem 0.6rem;
+    color: var(--global-theme-color);
+    font-size: 0.82rem;
+    line-height: 1.45;
+    background: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 999px;
+  }
+}
+
+.about-status {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin: 1.35rem 0;
+
+  div {
+    padding: 0.95rem 1rem;
+    background: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 8px;
+  }
+
+  strong {
+    display: block;
+    margin-bottom: 0.35rem;
+    color: var(--global-text-color);
+    font-size: 0.9rem;
+  }
+
+  p {
+    margin: 0;
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 575px) {
+  .about-lead {
+    font-size: 1.05rem;
+  }
+
+  .about-status {
+    grid-template-columns: 1fr;
+  }
+}
+
 /******************************************************************************
  * Publications
  ******************************************************************************/
@@ -53,8 +131,12 @@ body.sticky-bottom-footer {
 // TODO: redefine projects layout.
 
 /*****************************************************************************
-* Repositories
+* Research Artifacts
 *****************************************************************************/
+
+.post h2 + .repositories-grid {
+  margin-top: 1rem;
+}
 
 .repositories-grid {
   display: grid;

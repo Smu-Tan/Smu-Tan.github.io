@@ -1,0 +1,26 @@
+{% assign artifact = include.artifact %}
+{% assign artifact_icon = artifact.icon | default: 'fa-solid fa-cube' %}
+
+<div class="repo-card">
+  <a class="repo-card-link" href="{{ artifact.url }}" target="_blank" rel="noopener noreferrer">
+    <div class="repo-card-header">
+      <div>
+        <p class="repo-owner">{{ artifact.type }}</p>
+        <h3>{{ artifact.name }}</h3>
+      </div>
+      <span class="repo-icon" aria-hidden="true"><i class="{{ artifact_icon }}"></i></span>
+    </div>
+    <p class="repo-description">{{ artifact.description }}</p>
+    {% if artifact.tags %}
+      <div class="repo-tags" aria-label="Artifact topics">
+        {% for tag in artifact.tags %}
+          <span>{{ tag }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+    <div class="repo-card-footer">
+      <span>{{ artifact.url | remove: 'https://' }}</span>
+      <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+    </div>
+  </a>
+</div>
