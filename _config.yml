@@ -7,9 +7,9 @@ first_name: Shaomu
 middle_name:
 last_name: Tan
 email: s.tan@uva.nl
-description: #> # the ">" symbol means to ignore newlines until "footer_text:"
+description: PhD candidate at the University of Amsterdam working on multilingual LLMs, machine translation, reasoning, reward modeling, and evaluation.
 footer_text:
-keywords: #add your own keywords or leave empty
+keywords: machine translation, multilingual NLP, large language models, reward modeling, RLHF, translation evaluation, post-training
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: prof_pic.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -74,7 +74,7 @@ dblp_url: # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
 facebook_id: # your facebook id
 flickr_id: # your flickr id
-github_username: # your GitHub user name
+github_username: Smu-Tan # your GitHub user name
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
 instagram_id: # your instagram id

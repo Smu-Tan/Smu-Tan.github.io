@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Teaching&Service
+title: Teaching & Service
 permalink: /projects/
 description:
 nav: true
@@ -10,69 +10,93 @@ horizontal: false
 ---
 
 <style>
-  .content {
+  .service-page {
     max-width: 800px;
     margin: auto;
     padding: 20px;
-    font-family: Arial, sans-serif;
   }
-  h2 {
-    border-bottom: 2px solid #ccc;
+
+  .service-page h2 {
+    border-bottom: 2px solid var(--global-divider-color, #ccc);
     padding-bottom: 5px;
-    margin-bottom: 20px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
-  dl {
-    margin: 20px 0;
+
+  .service-page h2:first-of-type {
+    margin-top: 0;
   }
-  dt {
-    font-weight: bold;
-    margin-top: 10px;
+
+  .service-page dl {
+    margin: 0 0 1.5rem;
   }
-  dd {
-    margin-left: 20px;
-    margin-bottom: 10px;
+
+  .service-page dt {
+    font-weight: 600;
+    margin-top: 1rem;
   }
-  .italic {
-    font-style: italic;
+
+  .service-page dd {
+    margin-left: 1.25rem;
+    margin-bottom: 0.35rem;
+  }
+
+  .service-page .meta {
+    color: var(--global-text-color-light, #666);
   }
 </style>
 
-<div class="content">
-  <h2>Program Committee / Reviewing </h2>
-  <dl>
-    <dt>ACL ARR 2024</dt>
-    <dd>- February, April, June 2024</dd>
-    <dt>Conference on Machine Translation (WMT24)</dt>
-    <dd>- September, 2024</dd>
-    <dt>4th Multilingual Representation Learning (MRL) workshop at EMNLP 2024</dt>
-    <dd>- September, 2024</dd>
-    <dt>Transactions on Audio, Speech and Language Processing (TASLP) 2023</dt>
-    <dd>- December, 2023</dd>
-  </dl>
-  <br>
+<div class="service-page">
 
-  <h2>Guest Lecture</h2>
+  <h2>Invited Talks</h2>
   <dl>
-    <dt><a href="/assets/pdf/Guest-Lecture-UU.pdf" target="_blank">A Journey on Multilingual Neural Machine Translation</a></dt>
-    <dd>- Invited by Prof. Denis Paperno @ Utrecht University</dd>
-    <dd>- For AI Bachelor Students in the course <span class="italic">"Models for Language Processing", June 2024.</span></dd>
-    <dt><a href="/assets/pdf/Guest-Lecture-DL4NLP.pdf" target="_blank">Interference and Knowledge Transfer in Multilingual Translation Models</a></dt>
-    <dd>- Invited by Prof. Christof Monz @ University of Amsterdam</dd>
-    <dd>- For AI Master Students in the course <span class="italic">"Deep Learning for Natural Language Processing", October 2024.</span></dd>
-  </dl><br>
+    <dt><a href="/assets/pdf/MME_EACL.pdf" target="_blank" rel="noopener noreferrer">Toward Explainable, Robust, and Actionable Translation Quality Estimation</a></dt>
+    <dd class="meta">EACL 2026, Multilingual Multicultural Evaluation (MME) workshop, March 2026.</dd>
+
+    <dt>Remedy-R: Large Reasoning Models for Machine Translation Evaluation</dt>
+    <dd class="meta">University of Tokyo, invited by Prof. <a href="https://www.logos.ic.i.u-tokyo.ac.jp/~tsuruoka/" target="_blank" rel="noopener noreferrer">Yoshimasa Tsuruoka</a>, August 2025.</dd>
+
+    <dt>The Second Half of Machine Translation</dt>
+    <dd class="meta">Nara Institute of Science and Technology (NAIST), invited by Prof. <a href="https://sites.google.com/site/tarowtnb/" target="_blank" rel="noopener noreferrer">Taro Watanabe</a>, July 2025.</dd>
+  </dl>
+
+  <h2>Lectures & Education</h2>
+  <dl>
+    <dt><a href="/assets/pdf/Guest-Lecture-DL4NLP.pdf" target="_blank" rel="noopener noreferrer">Interference and Knowledge Transfer in Multilingual Translation Models</a></dt>
+    <dd class="meta">University of Amsterdam, AI Master course "Deep Learning for Natural Language Processing", co-presented with Prof. Christof Monz, October 2024.</dd>
+
+    <dt><a href="/assets/pdf/Guest-Lecture-UU.pdf" target="_blank" rel="noopener noreferrer">A Journey on Multilingual Neural Machine Translation</a></dt>
+    <dd class="meta">Utrecht University, AI Bachelor course "Models for Language Processing", co-presented with Prof. Denis Paperno, June 2024.</dd>
+
+    <dt>Teaching Assistant, Natural Language Processing 1</dt>
+    <dd class="meta">University of Amsterdam, AI Master program.</dd>
+  </dl>
+
+  <h2>Reviewing</h2>
+  <dl>
+    <dt>ACL Rolling Review</dt>
+    <dd class="meta">2023-2026, including ACL, EMNLP, EACL, and NAACL submissions.</dd>
+
+    <dt>Transactions on Audio, Speech, and Language Processing (TASLP)</dt>
+    <dd class="meta">Journal reviewing, 2023-2026.</dd>
+
+    <dt>Conference on Machine Translation (WMT)</dt>
+    <dd class="meta">Program committee / reviewer, 2023-2026.</dd>
+
+    <dt>Multilingual Representation Learning (MRL)</dt>
+    <dd class="meta">Workshop reviewer, 2023-2026.</dd>
+  </dl>
 
   <h2>Thesis Mentorship</h2>
   <dl>
-    <dt>Sotirios Kastanas, Msc thesis in Data Science, 2023</dt>
-    <dd>- Document AI topic, collaborated with Elsevier.</dd>
-    <dt>Matei Penca, Msc thesis in Data Science, 2023</dt>
-    <dd>- Information Extraction topic, collaborated with Elsevier.</dd>
-    <dt>Jelle van der Lee, Bsc thesis in Artificial Intelligence, 2022<dt>
-    <dd>- Question Answering topic.</dd>
-  <br>
+    <dt>Sotirios Kastanas, MSc thesis in Data Science, 2023</dt>
+    <dd class="meta">Document AI topic, in collaboration with Elsevier.</dd>
 
-  <h2>Teaching Assistance</h2>
-  <dl>
-    <dt>TA for ’Natural Language Processing-1’</dt>
-    <dd>- For AI Master Students, at the University of Amsterdam</dd>
+    <dt>Matei Penca, MSc thesis in Data Science, 2023</dt>
+    <dd class="meta">Information extraction topic, in collaboration with Elsevier.</dd>
+
+    <dt>Jelle van der Lee, BSc thesis in Artificial Intelligence, 2022</dt>
+    <dd class="meta">Question answering topic.</dd>
   </dl>
+
+</div>

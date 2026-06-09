@@ -5,81 +5,157 @@
       value: Shaomu Tan
     - name: Email
       value: <a href="mailto:s.tan@uva.nl">s.tan@uva.nl</a>
-    - name: Summary
-      value: A PhD Candidate at University of Amsterdam, working on Deep Learning for Natural Language Processing.
+    - name: Research areas
+      value: Machine translation, multilingual LLMs, reasoning systems, translation evaluation, reward modeling, and LLM post-training.
+    - name: Status
+      value: PhD candidate at the University of Amsterdam; expected completion in 2026.
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD in Artificial Intelligence
+    - title: PhD in Computer Science
       institution: <a href="https://ivi.uva.nl/research/language-technology-lab-ltl.html">University of Amsterdam</a>, Amsterdam, Netherlands
-      year: 2022-2024
+      year: 2022-2026
       location: Amsterdam, NL
       description:
-        - Multilingual Machine Translation
-        - Deep Learning for Natural Language Processing
-    - title: Master in Artificial Intelligence
-      institution: <a href="https://ivi.uva.nl/research/language-technology-lab-ltl.html">Utrecht University</a>, Utrecht, Netherlands
+        - Focus on LLMs and machine translation.
+        - Supervised by Christof Monz.
+    - title: Master of Science in Artificial Intelligence
+      institution: <a href="https://www.uu.nl/en">Utrecht University</a>, Utrecht, Netherlands
       year: 2020-2022
       location: Utrecht, NL
       description:
-        - Dutch GPA&#58; 8.0/10.0
-        - US Scale&#58; 4.0/4.0
-    - title: Bachelor in Information System
+        - GPA&#58; 4.0/4.0.
+    - title: Bachelor of Science in Information System
       institution: <a href="https://www.en.sdu.edu.cn/">Shandong University</a>, Shandong, China
       year: 2016-2020
       location: Shandong, CN
-      #description:
-      #  -
 
-- title: Publications
+- title: Professional Experience
   type: time_table
   contents:
+    - title: Applied Scientist Research Intern
+      institution: Amazon AGI, Berlin, Germany
+      year: 2025-10 - 2026-01
+      location: Berlin, DE
+      description:
+        - Conducted research on test-time scaling for long-context, book-level machine translation, bridging research and production LLM systems.
+        - Designed and led a large-scale human evaluation pipeline with 1M annotated words and around $90K USD in annotation cost.
+        - Research output accepted to ACL 2026.
+    - title: Research Intern
+      institution: Sony Speech & Language AI Lab, Tokyo, Japan
+      year: 2025-06 - 2025-09
+      location: Tokyo, JP
+      description:
+        - Developed reasoning-based LLM evaluation models for translation quality estimation and refinement.
+        - Applied RLVR to improve evaluation reliability and alignment with human preferences using 7B-32B LLMs.
+        - Built a multi-role agentic LLM framework for evaluation and refinement pipelines.
+        - Research output accepted to ACL 2026.
+
+- title: Selected Publications
+  type: time_table
+  contents:
+    - title: What Does LLM Refinement Actually Improve? A Systematic Study on Document-Level Literary Translation
+      year: 2026
+      description:
+        - ACL 2026
+        - <i><strong>Shaomu Tan</strong>, Dawei Zhu, Ke Tran, Michael Denkowski, Sony Trenous, Bill Byrne, Leonardo Ribeiro, Felix Hieber</i>
+    - title: <a href="https://arxiv.org/abs/2512.18906">Remedy-R&#58; Generative Reasoning for Machine Translation Evaluation without Error Annotations</a>
+      year: 2026
+      description:
+        - ACL 2026
+        - <i><strong>Shaomu Tan</strong>, Ryosuke Mitani, Ritvik Choudhary, Qiyu Wu, Toshiyuki Sekiya, Christof Monz</i>
+    - title: <a href="https://aclanthology.org/2025.emnlp-main.217/">ReMedy&#58; Learning Machine Translation Evaluation from Human Preferences with Reward Modeling</a>
+      year: 2025
+      description:
+        - EMNLP 2025
+        - <i><strong>Shaomu Tan</strong>, Christof Monz</i>
     - title: <a href="https://aclanthology.org/2024.emnlp-main.374/">Neuron Specialization&#58; Leveraging Intrinsic Task Modularity for Multilingual Machine Translation</a>
-      year: 2024-11
+      year: 2024
       description:
         - EMNLP 2024
-        - <i><strong> Shaomu Tan</strong>, Di wu, Christof Monz</i>
-
-    - title: <a href="https://arxiv.org/abs/2401.12413">How Far Can 100 Samples Go? Unlocking Overall Zero-Shot Multilingual Translation via Tiny Multi-Parallel Data</a>
-      year: 2024-05
+        - <i><strong>Shaomu Tan</strong>, Di Wu, Christof Monz</i>
+    - title: <a href="https://aclanthology.org/2024.findings-acl.896/">How Far Can 100 Samples Go? Unlocking Zero-Shot Translation with Tiny Multi-Parallel Data</a>
+      year: 2024
       description:
         - ACL Findings 2024
-        - <i>Di wu, <strong> Shaomu Tan</strong>, Yan Meng, David Stap, Christof Monz</i>
-
+        - <i>Di Wu, <strong>Shaomu Tan</strong>, Yan Meng, David Stap, Christof Monz</i>
     - title: <a href="https://aclanthology.org/2023.emnlp-main.836/">Towards a Better Understanding of Variations in Zero-Shot Neural Machine Translation Performance</a>
-      year: 2023-10
+      year: 2023
       description:
         - EMNLP 2023
-        - <i><strong> Shaomu Tan</strong>, Christof Monz</i>
-
+        - <i><strong>Shaomu Tan</strong>, Christof Monz</i>
     - title: <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/3151e460c41ba67dc55412861184ef35-Abstract-Conference.html">Make Pre-trained Model Reversible&#58; From Parameter to Memory Efficient Fine-Tuning</a>
-      year: 2023-09
+      year: 2023
       description:
         - NeurIPS 2023
-        - <i>Baohao Liao, <strong> Shaomu Tan</strong>, Christof Monz</i>
-
-    - title: <a href="https://aclanthology.org/2023.wmt-1.17/">UvA-MT's Participation in the WMT23 General Translation Shared Task</a>
-      year: 2023-10
-      description:
-        - WMT 2023
-        - <i>Di Wu*, <strong> Shaomu Tan*</strong>, David Stap, Ali Araabi, Christof Monz</i>
+        - <i>Baohao Liao, <strong>Shaomu Tan</strong>, Christof Monz</i>
 
 - title: Competitions
   type: time_table
   contents:
     - title: <a href="https://www.kaggle.com/competitions/wsdm-cup-multilingual-chatbot-arena/overview">WSDM Cup - Multilingual Chatbot Arena</a>
-      year: 2025-03
+      year: 2025
       description:
         - <strong>Silver Medal - Ranked 19/950 teams</strong>
-        - <strong> Shaomu Tan </strong>
-    - title: <a href="https://www.kaggle.com/competitions/asl-fingerspelling/discussion/434475">Google's American Sign Language Fingerspelling Recognition</a>
-      year: 2023-08
+        - Trained 7B-14B reward models for multilingual human preference prediction with DeepSpeed, vLLM, quantization, pseudo-labeling, and model merging.
+    - title: <a href="https://www.kaggle.com/competitions/asl-fingerspelling/discussion/434475">Google American Sign Language Fingerspelling Recognition</a>
+      year: 2023
       description:
         - <strong>Gold Medal - Ranked 11/1,315 teams</strong>
-        - Baohao Liao, <strong> Shaomu Tan </strong>
-    - title: <a href="https://aclanthology.org/2023.wmt-1.17/">WMT 23 General Machine Translation Competition</a>
-      year: 2023-10
+        - Designed and implemented a Conformer-Transformer architecture over sign-language landmarks with CTC and cross-entropy objectives.
+    - title: <a href="https://aclanthology.org/2023.wmt-1.17/">WMT 2023 General Machine Translation Shared Task</a>
+      year: 2023
       description:
-        - <strong>First Place on English-Hebrew Constraint Track</strong>
-        - Di Wu*, <strong> Shaomu Tan*</strong>, David Stap, Ali Araabi, Christof Monz
+        - <strong>First Place on the English-Hebrew constrained track</strong>
+        - Built a compact encoder-decoder MT system that performed on par with GPT-4 5-shot prompting.
+
+- title: Invited Talks
+  type: time_table
+  contents:
+    - title: <a href="/assets/pdf/MME_EACL.pdf">Toward Explainable, Robust, and Actionable Translation Quality Estimation</a>
+      institution: EACL 2026 Multilingual & Multicultural Evaluation Workshop
+      year: 2026-03
+    - title: Remedy-R&#58; Large Reasoning Models for Machine Translation Evaluation
+      institution: University of Tokyo, invited by Prof. Yoshimasa Tsuruoka
+      year: 2025-08
+    - title: The Second Half of Machine Translation
+      institution: Nara Institute of Science and Technology, invited by Prof. Taro Watanabe
+      year: 2025-07
+
+- title: Teaching & Service
+  type: time_table
+  contents:
+    - title: <a href="/assets/pdf/Guest-Lecture-DL4NLP.pdf">Interference and Knowledge Transfer in Multilingual Translation Models</a>
+      institution: University of Amsterdam, AI Master course Deep Learning for NLP
+      year: 2024-10
+      description:
+        - Co-presented with Prof. Christof Monz.
+    - title: <a href="/assets/pdf/Guest-Lecture-UU.pdf">A Journey on Multilingual Neural Machine Translation</a>
+      institution: Utrecht University, AI Bachelor course Models for Language Processing
+      year: 2024-06
+      description:
+        - Co-presented with Prof. Denis Paperno.
+    - title: Reviewing
+      institution: ACL Rolling Review, TASLP, WMT, and MRL
+      year: 2023-2026
+      description:
+        - Reviewed for ACL, EMNLP, EACL, NAACL, TASLP, WMT, and Multilingual Representation Learning.
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Programming & Systems
+      items:
+        - Python, Bash/Linux, Git, Docker, Slurm, AWS.
+    - title: Deep Learning & NLP
+      items:
+        - PyTorch, Hugging Face Transformers, TRL, PEFT, SentencePiece, Fairseq.
+    - title: LLM Training & Post-Training
+      items:
+        - Verl, OpenRLHF, vLLM, Megatron-LM, Llama-Recipes, NeMo.
+        - DeepSpeed, FSDP, Flash-Attention, distributed training and inference up to 72B LLMs.
+    - title: Languages
+      items:
+        - Chinese native speaker.
+        - English full professional proficiency.
