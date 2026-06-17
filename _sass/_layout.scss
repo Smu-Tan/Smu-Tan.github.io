@@ -83,11 +83,14 @@ body.sticky-bottom-footer {
   align-items: center;
   justify-content: center;
   min-height: 4rem;
-  padding: 0;
+  padding: 0.65rem;
   color: var(--global-theme-color);
   font-size: 0.95rem;
   font-weight: 700;
   text-align: center;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
 
   span {
     display: block;
