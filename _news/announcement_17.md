@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper "What does LLM refinement actually improve? A systematic study on document-level literary translation" during my internship at Amazon has been accepted to the **[ACL2026](https://2026.aclweb.org/) conference**.
+Paper "[What does LLM refinement actually improve? A systematic study on document-level literary translation](https://arxiv.org/abs/2605.13368)" during my internship at Amazon has been accepted to the **[ACL2026](https://2026.aclweb.org/) conference**.
