@@ -72,36 +72,35 @@ body.sticky-bottom-footer {
 
 .experience-item {
   display: grid;
-  grid-template-columns: 7.5rem minmax(0, 1fr);
-  gap: 1.25rem;
+  grid-template-columns: 8rem minmax(0, 1fr);
+  gap: 1.5rem;
   align-items: start;
-  padding: 1rem 0;
+  padding: 0.85rem 0;
 }
 
 .experience-mark {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 4.2rem;
-  padding: 0.75rem;
+  min-height: 4rem;
+  padding: 0;
   color: var(--global-theme-color);
   font-size: 0.95rem;
   font-weight: 700;
   text-align: center;
-  background: var(--global-card-bg-color);
-  border: 1px solid var(--global-divider-color);
-  border-radius: 8px;
-
-  img {
-    display: block;
-    max-width: 100%;
-    max-height: 3rem;
-    object-fit: contain;
-  }
 
   span {
     display: block;
   }
+}
+
+.experience-logo {
+  display: block;
+  max-width: 110px;
+  max-height: 54px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
 }
 
 .experience-body {

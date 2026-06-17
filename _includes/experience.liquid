@@ -4,7 +4,12 @@
       <div class="experience-item">
         <div class="experience-mark">
           {% if item.logo %}
-            <img src="{{ item.logo | prepend: 'assets/img/' | relative_url }}" alt="{{ item.logo_alt | default: item.organization }}">
+            <img
+              class="experience-logo"
+              src="{{ item.logo | prepend: 'assets/img/' | relative_url }}"
+              alt="{{ item.logo_alt | default: item.organization }}"
+              style="max-width: 110px; max-height: 54px; width: auto; height: auto;"
+            >
           {% else %}
             <span>{{ item.mark }}</span>
           {% endif %}
