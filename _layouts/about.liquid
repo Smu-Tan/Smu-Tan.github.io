@@ -40,13 +40,18 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    {% if site.data.experience %}
+      <h2 class="about-section-title">experience</h2>
+      {% include experience.liquid %}
+    {% endif %}
+
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2 class="about-section-title">
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
       </h2>
       <div class="about-news">
-        {% include news.liquid %}
+        {% include news.liquid filterable=true %}
       </div>
     {% endif %}
 

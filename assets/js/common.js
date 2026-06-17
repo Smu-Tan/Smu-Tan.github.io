@@ -56,4 +56,17 @@ $(document).ready(function () {
   $('[data-toggle="popover"]').popover({
     trigger: "hover",
   });
+
+  $(".news-year-filter").click(function () {
+    const selectedYear = $(this).data("news-year").toString();
+    const $news = $(this).closest(".news");
+
+    $news.find(".news-year-filter").removeClass("active").attr("aria-pressed", "false");
+    $(this).addClass("active").attr("aria-pressed", "true");
+
+    $news.find("tr[data-news-year]").each(function () {
+      const rowYear = $(this).data("news-year").toString();
+      $(this).toggle(selectedYear === "all" || rowYear === selectedYear);
+    });
+  });
 });
